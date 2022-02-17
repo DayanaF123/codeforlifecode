@@ -1,0 +1,27 @@
+<html>
+<head>
+    <body>
+</body>
+</head>
+<h1 id="demo1"></h1>
+<img src="https://st3.depositphotos.com/2021995/12537/i/950/depositphotos_125370438-stock-photo-monday-concept-watercolor-word-art.jpg" width="50%">
+
+<script>
+const hour = new Date().getDay();// Tells us the exact day
+let greeting;//Created a var called greeting
+if (hour == 1) {
+    greeting = "It's Monday";// var greeting equals It's Monday
+} else if (hour == 2) {
+    greeting = "Good day";//
+} else {
+    greeting = "Good morning";
+}
+document.getElementById("demo1").innerHTML = greeting; 
+
+console.log(greeting) 
+<p>time:</p>
+<p id = "demo"></p>
+
+
+
+</html>
